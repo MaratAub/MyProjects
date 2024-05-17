@@ -1,0 +1,323 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Manrope", sans-serif;
+    width: 100%;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1400px;
+}
+
+
+/* ======== HEADER ================*/
+
+header {
+    padding: 32px;
+}
+
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__header {
+    display: flex;
+    gap: 60px;
+}
+
+.nav__list {
+    color: rgb(18, 18, 18);
+    font-size: 18px;
+    line-height: 25px;
+    text-align: left;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.nav__list:hover {
+    border-bottom: 1px solid rgb(0, 0, 0);
+    opacity: 0.5;
+}
+
+
+
+
+.nav__list--active {
+    color: rgb(18, 18, 18);
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    opacity: 0.5;
+    text-decoration: none;
+}
+
+
+/* ======================  Block Preview  ================================== */
+
+
+.main__title {
+    color: rgb(18, 18, 18);
+    font-size: 60px;
+    line-height: 60px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.preview__block {
+    position: relative;
+    margin-bottom: 150px;
+}
+
+.text__preview {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    line-height: 27px;
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    width: 430px;
+}
+
+.img__preview {
+    width: 100%;
+}
+
+/* ==================== info block =========================================== */
+
+.title__block {
+    color: rgb(18, 18, 18);
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.text__info {
+    color: rgb(18, 18, 18);
+    font-size: 45px;
+    line-height: 61px;
+    width: 1048px;
+    margin-bottom: 30px;
+}
+
+.view__services--btn {
+    display: inline-block;
+    background: rgb(173, 24, 24);
+    border-radius: 5px;
+    padding: 20px 40px;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    line-height: 27px;
+    margin-bottom: 150px;
+    text-decoration: none;
+}
+
+.view__services--btn:hover {
+    border: 1px solid rgb(173, 24, 24);
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(173, 24, 24);
+}
+
+
+/* ======================== projects block =================================== */
+
+
+.apartment__card {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 90px;
+}
+
+.img__apart {
+    margin-bottom: 15px;
+}
+
+.name__apart {
+    color: rgb(18, 18, 18);
+    font-size: 30px;
+    line-height: 41px;
+}
+
+.details {
+    color: rgb(173, 24, 24);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+    text-decoration: none;
+}
+
+.view__all__obj--btn {
+    display: inline-block;
+    width: 100%;
+    color: rgb(173, 24, 24);
+    background-color: transparent;
+    font-size: 30px;
+    line-height: 41px;
+    text-align: center;
+    padding: 56px;
+    border: 1px solid rgb(173, 24, 24);
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.view__all__obj--btn:hover {
+    box-sizing: border-box;
+    border: 1px solid rgb(173, 24, 24);
+    border-radius: 5px;
+    background-color: rgb(173, 24, 24);
+    color: rgb(255, 255, 255)
+}
+
+.projects__block {
+    margin-bottom: 150px;
+}
+
+
+/* ===================================== service block ========================= */
+
+.background__service {
+    background-color: rgb(18, 18, 18);
+    padding: 150px;
+}
+
+.title__block--service {
+    color: rgb(255, 255, 255);
+    margin-bottom: 34px;
+}
+
+.name__service {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    line-height: 41px;
+}
+
+.img__service {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.service__card {
+    margin-bottom: 60px;
+}
+
+
+/* =================================== preview project block ========================== */
+
+.project__preview--block {
+    position: relative;
+}
+
+.text__prev__proj {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    line-height: 41px;
+    width: 443px;
+    position: absolute;
+    bottom: 60px;
+    left: 125px;
+}
+
+.img__proj--prev {
+    width: 100%;
+}
+
+
+/* ============================ contacts block ============================ */
+
+.wrapper__contacts {
+    padding: 150px 0;
+}
+
+.img__phone {
+    width: 13px;
+    margin-bottom: 7px;
+}
+
+.title__contacts {
+    margin-bottom: 32px;
+    line-height: 60px;
+}
+
+.number__phone {
+    display: block;
+    color: rgb(18, 18, 18);
+    font-size: 60px;
+    line-height: 60px;
+    margin-bottom: 30px;
+    text-decoration: none;
+    margin-bottom: 30px;
+}
+
+.email {
+    display: block;
+    width: 555px;
+    color: rgb(18, 18, 18);
+    font-size: 60px;
+    line-height: 60px;
+    opacity: 0.5;
+    text-decoration: none;
+    border-bottom: 2px solid rgb(18, 18, 18);
+    margin-bottom: 30px;
+
+}
+
+
+/* =================== footer ======================= */
+
+.footer {
+    background: rgb(18, 18, 18);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 230px;
+}
+
+.list--footer--active {
+    opacity: 0.5;
+
+}
+
+.nav__footer {
+    display: flex;
+    gap: 54px;
+    margin-top: 60px;
+    margin-bottom: 87px;
+}
+
+.nav__list--footer {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.nav__list--footer:hover {
+    opacity: 0.5;
+}
+
+.signa {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    line-height: 27px;
+    opacity: 0.5;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+/* Разобраться с контактами!!! */
